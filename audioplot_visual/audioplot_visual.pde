@@ -47,6 +47,7 @@ void draw()
     stroke(20);
     point(i*scale, y+val);
   }
+  saveFrame("plot.png");
 }
 
 
