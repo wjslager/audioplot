@@ -42,10 +42,10 @@ void draw()
     float val = floats[i] * waveHeight;
 
     stroke(200);
-    line(i*scale, y, i*scale, y+val);
+    line(i*scale, y, i*scale, y-val);
 
     stroke(20);
-    point(i*scale, y+val);
+    point(i*scale, y-val);
   }
   saveFrame("plot.png");
 }
